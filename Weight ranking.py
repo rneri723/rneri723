@@ -16,8 +16,9 @@ with open ("TextFiles/PR.txt", 'a') as PR:
     PR.write('\n')
     PR.write(str(DeadLift))
     PR.write('\n')
+    z = Bench + Squat + DeadLift
 with open ("TextFiles/PR.txt") as PR:
     contents = PR.read()
     print(contents)
-z = Bench + Squat + DeadLift
+
 print(z)
